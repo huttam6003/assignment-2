@@ -236,6 +236,18 @@ footer h3 {
     color: #424242;
 
 }
+/* extra section styles  */
+.extra-con{
+    display: flex;
+    align-items: center;
+    margin: 100px 12%;
+    gap: 50px;
+}
+.extra-img{
+    width: 100%;
+}
+
+/* Mobile device styles  */
 @media only screen and (max-width: 576px){
 
     .nav-con{
@@ -295,9 +307,9 @@ footer h3 {
 
 
 
-    .facts-cart-con, .sponspors-img-con {
+    .facts-cart-con, .sponspors-img-con, .extra-con {
         flex-direction: column;
         gap: 50px;
     }
-    
+
 }
