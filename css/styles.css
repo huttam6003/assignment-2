@@ -16,6 +16,7 @@
 
 img {
     width: 100%;
+    font-size: 2px;
 }
 
 .primary-color {
@@ -234,4 +235,69 @@ footer h3 {
     font-size: 20px;
     color: #424242;
 
+}
+@media only screen and (max-width: 576px){
+
+    .nav-con{
+        margin: 20px;
+    }
+    .nav-title{
+        font-size: 20px;
+    }
+    .nav-items{
+        flex-direction: column;
+    }
+    .title{
+        width: 90%;
+    }
+    .title h1 {
+        font-size: 25px;
+    }
+    .header-img{
+        margin: 10px;
+    }
+
+    .quic-list-con {
+        flex-direction: column;
+        margin:     0px;
+    }
+    
+    .quic-list-img {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .quic-list-text {
+        padding: 0px;
+        width: 90%;
+        margin-top: 50px;
+    }
+
+
+
+    .features-con {
+        margin: 0;
+        flex-direction: column;
+    
+    }
+    .features-text {
+        width: 100%;
+    }
+    .features-img-con {
+        width: 100%;
+    }
+    .features-img {
+        margin-left: 0px;
+    }
+    .features-btn {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+
+
+    .facts-cart-con, .sponspors-img-con {
+        flex-direction: column;
+        gap: 50px;
+    }
+    
 }
